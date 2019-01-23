@@ -24,3 +24,4 @@ def artist=(artist)
   else
     @artist = artist
 end
+end
