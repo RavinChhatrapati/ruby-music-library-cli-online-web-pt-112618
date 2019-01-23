@@ -30,8 +30,7 @@ if self.artist != nil
       @artist.add_song(self)
     end
     @artist
-  end
-end
+
 
 
 def artist
