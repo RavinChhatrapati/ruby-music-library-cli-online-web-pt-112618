@@ -26,4 +26,3 @@ def artist=(artist)
 end
 end
 end
-
