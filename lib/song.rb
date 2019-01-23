@@ -23,7 +23,7 @@ def artist=(artist)
   if @artist == nil
     @artist = artist
   else
-    @artist = artist
+    @artist = @artist
   end
 end
 if self.artist != nil
