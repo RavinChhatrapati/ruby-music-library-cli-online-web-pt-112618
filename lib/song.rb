@@ -1,9 +1,10 @@
 class Song
 @@all = []
 attr_accessor :name
-def initialize(name, artist = nil) # makes artist as an optional argument when set to artist =
+def initialize(name, artist = nil, genre = nil) # makes artist as an optional argument when set to artist =
   @name = name
   self.artist = artist if artist
+  self.genre = genre if genre
 end
 def self.all
   @@all
