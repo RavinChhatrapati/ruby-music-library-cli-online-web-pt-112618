@@ -13,4 +13,7 @@ end
 def save
   @@all << self
 end
+def self.create
+  self.new(name).tap do |song}
+    song.save
 end
