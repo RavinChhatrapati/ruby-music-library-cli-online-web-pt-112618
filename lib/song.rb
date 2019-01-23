@@ -25,3 +25,5 @@ def artist=(artist)
     @artist = artist
 end
 end
+end
+end
