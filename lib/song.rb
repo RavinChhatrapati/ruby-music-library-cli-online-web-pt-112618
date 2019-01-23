@@ -12,4 +12,5 @@ def self.destroy_all
 end
 def save
   @@all << self
-  
+end
+end
