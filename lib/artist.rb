@@ -7,7 +7,7 @@ end
 def self.all
   @@all
 end
-def destroy_all
+def self.destroy_all
 self.all.clear
 end
 def save
