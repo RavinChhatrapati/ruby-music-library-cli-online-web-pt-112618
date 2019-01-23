@@ -12,3 +12,6 @@ def self.destroy_all
 end
 def save
   @@all << self
+def self.create(name)
+  self.new(name).tap do|genre|
+    genre.save
