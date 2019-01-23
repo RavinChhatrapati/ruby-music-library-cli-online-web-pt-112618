@@ -24,7 +24,7 @@ def artist=(artist)
     @artist = artist
   else
     @artist = artist
-end
+  end
 end
 if self.artist != nil
       @artist.add_song(self)
