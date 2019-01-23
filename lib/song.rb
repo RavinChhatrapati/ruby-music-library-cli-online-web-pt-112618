@@ -18,4 +18,9 @@ def self.create(name)
     song.save
 end
 end
+def artist=(artist)
+  if @artist = nil
+    @artist = artist
+  else
+    @artist = artist
 end
