@@ -16,4 +16,5 @@ end
 def self.create(name)
   self.new(name).tap do|artist|
     artist.save
-  
+  end
+end
