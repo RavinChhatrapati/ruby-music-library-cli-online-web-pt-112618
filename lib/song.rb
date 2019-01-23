@@ -30,6 +30,7 @@ if self.artist != nil
 end
 @artist
 end
+
 def artist
   @artist
 end
