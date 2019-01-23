@@ -15,3 +15,6 @@ def save
 def self.create(name)
   self.new(name).tap do|genre|
     genre.save
+  end
+end
+end
