@@ -19,4 +19,6 @@ def self.create(name)
     artist.save
   end
 end
+def songs
+  @songs
 end
