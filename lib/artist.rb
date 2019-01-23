@@ -22,7 +22,7 @@ end
 def songs
   @songs
 end
-def add_song
+def add_song(artist)
   song.artist = self unless song.artist == self
      @songs << song unless @songs.include?(song)
 end
