@@ -14,7 +14,7 @@ def save
   @@all << self
 end
 def self.create
-  self.new(name) do|song|
+  self.new(name).tap do|song|
     song.save
 end
 end
